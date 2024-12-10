@@ -1,0 +1,156 @@
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+ 
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+  }
+  
+
+  .w3-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #111;
+  }
+  
+  .w3-sidebar a {
+    color: #818181;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+  }
+  
+  .w3-sidebar a:hover {
+    background-color: #575757;
+    color: white;
+  }
+  
+  
+  .w3-main {
+    margin-left: 40%;
+    padding: 60px 20px;
+  }
+  
+
+  header {
+    padding: 128px 16px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 20px;
+  }
+  
+  header img {
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  header button {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  header button:hover {
+    background-color: #ddd;
+  }
+  
+  
+  #portfolio {
+    padding: 32px;
+  }
+  
+  #portfolio h2 {
+    color: #555;
+  }
+  
+  #portfolio ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #portfolio li {
+    margin: 10px 0;
+  }
+  
+  #portfolio a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #portfolio a:hover {
+    color: #0078ff;
+  }
+  
+ 
+  #about {
+    padding: 32px;
+    text-align: justify;
+  }
+  
+  #about h2 {
+    color: #555;
+  }
+  
+  
+  footer {
+    background-color: #f1f1f1;
+    padding: 64px 10px;
+    text-align: center;
+  }
+  
+  footer i {
+    font-size: 36px;
+    margin: 0 15px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  footer i:hover {
+    color: #0078ff;
+  }
+  
+  footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .w3-main {
+      margin-left: 0;
+    }
+  
+    .w3-sidebar {
+      width: 100%;
+    }
+  }
+  
